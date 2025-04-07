@@ -1,0 +1,141 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: white;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: #434455;
+}
+ul {
+  list-style-type: none;
+}
+.logo,
+.logo-text-tp,
+.logo-text-btm {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-text-tp {
+  color: #2e2f42;
+}
+.logo-text-btm {
+  color: #f4f4fd;
+}
+.main-nav,
+.nav-element {
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.contacts {
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+.contact-element:hover,
+.nav-element:hover,
+.nav-element:focus,
+.contact-element:focus {
+  color: #404bbf;
+}
+.main-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.order-service {
+  background-color: #2e2f42;
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.order-btn {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+.order-btn:hover,
+.order-btn:focus {
+  background-color: #404bbf;
+}
+.advantage-header {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+.advantage-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team-member {
+  background-color: white;
+}
+.member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.member-position {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+.product {
+  background-color: white;
+}
+.product-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.product-type {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer-context {
+  background-color: #2e2f42;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
