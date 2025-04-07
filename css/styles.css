@@ -1,12 +1,26 @@
+  :root{
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navyblue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navyblue-modal:rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: white;
+  color: var(--slate);
+  background-color: var(--white);
   line-height: 1.5;
 }
 a {
   text-decoration: none;
-  color: #434455;
+  color: var(--slate);
 }
 ul {
   list-style-type: none;
@@ -20,17 +34,17 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris);
 }
 .logo-text-tp {
-  color: #2e2f42;
+  color: var(--navyblue);
 }
 .logo-text-btm {
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 .main-nav,
 .nav-element {
-  color: #2e2f42;
+  color: var(--slate);
   font-weight: 500;
   letter-spacing: 0.02em;
 }
@@ -42,7 +56,7 @@ ul {
 .nav-element:hover,
 .nav-element:focus,
 .contact-element:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 .main-text {
   font-weight: 700;
@@ -50,19 +64,19 @@ ul {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white);
 }
 .order-service {
-  background-color: #2e2f42;
+  background-color: var(--slate);
   font-size: 56px;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white);
 }
 .order-btn {
-  background-color: #4d5ae5;
-  color: #ffffff;
+  background-color: var(--iris);
+  color: var(--white);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -72,10 +86,10 @@ ul {
 }
 .order-btn:hover,
 .order-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--ocean);
 }
 .advantage-header {
-  color: #2e2f42;
+  color: var(--navyblue);
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -84,7 +98,7 @@ ul {
 .advantage-text {
   font-size: 16px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 .section-header {
   font-weight: 700;
@@ -92,14 +106,14 @@ ul {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
+  color: var(--navyblue);
   text-transform: capitalize;
 }
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
 }
 .team-member {
-  background-color: white;
+  background-color: var(--white);
 }
 .member-name {
   font-weight: 500;
@@ -113,29 +127,29 @@ ul {
   font-size: 16px;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
+  color: var(--slate);
 }
 .product {
-  background-color: white;
+  background-color: var(--white);
 }
 .product-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navyblue);
 }
 .product-type {
   font-size: 16px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 .footer-context {
-  background-color: #2e2f42;
+  background-color: var(--navyblue);
 }
 .footer-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--cloud);
 }
