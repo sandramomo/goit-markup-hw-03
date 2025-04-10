@@ -53,8 +53,9 @@ img {
 /* HEADER */
 .headder-container {
   /* STYLE */
-  border-bottom: 1px solid var(--cornflower);
+ border-bottom: 1px solid #e7e9fc;
 }
+
 header .container {
   /* LAYOUT */
   justify-content: space-around;
@@ -88,6 +89,7 @@ header .container {
   display: flex;
   gap: 40px;
   align-items: center;
+  padding: 24px 0;
 }
 
 .nav-list {
@@ -245,7 +247,9 @@ header .container {
   justify-content: center;
   gap: 24px;
 }
-
+.team-member {
+border-radius: 0px 0px 4px 4px;
+}
 .team-member-info {
   /* LAYOUT */
    padding: 32px 0;
@@ -304,6 +308,7 @@ header .container {
 .product-name {
   /* LAYOUT */
   padding: 32px 0 0 16px;
+  margin-bottom: 8px;
   /* STYLE */
   font-weight: 500;
   font-size: 20px;
@@ -333,7 +338,7 @@ header .container {
   background-color: var(--navyblue);
   padding: 100px 0;
 }
-.footer-container .logo {
+.footer-container a {
   display:inline-block;
   margin-bottom: 16px ;
 }
