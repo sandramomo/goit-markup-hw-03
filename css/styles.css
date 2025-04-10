@@ -36,6 +36,7 @@ a {
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 img {
   display: block;
@@ -47,26 +48,39 @@ img {
   display: flex;
   margin: 0 auto;
   width: 1158px;
-  padding: 0 15px;
 }
 
 /* HEADER */
-.headder-container {
-  /* STYLE */
- border-bottom: 1px solid #e7e9fc;
+.header-container {
+padding:24px 0;
 }
-
 header .container {
-  /* LAYOUT */
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.logo {
-  /* LAYOUT */
-  margin-right: 76px;
+.navigation {
+  display:flex;
+  gap:40px;
 }
-.logo,
-.logo-text-tp,
-.logo-text-btm {
+.nav-list {
+  display:flex;
+  gap:40px;
+  font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.contacts-list {
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;color: #434455;
+  display:flex;
+  gap:40px;
+}
+.logo{
   /* STYLE */
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -84,37 +98,13 @@ header .container {
   /* STYLE */
   color: var(--cloud);
 }
-.navigation {
-  /* LAYOUT */
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  padding: 24px 0;
-}
 
-.nav-list {
-  /* STYLE */
-  color: var(--slate);
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  /* LAYOUT */
-  display: flex;
-  gap: 40px;
-}
-.navigation .logo {
-  /* LAYOUT */
-  align-self: center;
-}
 .contacts {
   /* STYLE */
   font-style: normal;
   letter-spacing: 0.02em;
 }
-.contacts-list {
-  /* LAYOUT */
-  display: flex;
-  gap: 40px;
-}
+
 .contact-element:hover,
 .nav-list-element:hover,
 .nav-list-element:focus,
@@ -140,7 +130,6 @@ header .container {
   display: flex;
   gap: 48px;
   padding: 188px 0;
-  width: 100%;
   /* STYLE */
   background-color: var(--navyblue);
   font-size: 56px;
@@ -183,7 +172,6 @@ header .container {
   padding: 120px 0;
 }
 .visually-hidden {
-  /* LAYOUT*/
   position: absolute;
   width: 1px;
   height: 1px;
@@ -338,9 +326,9 @@ border-radius: 0px 0px 4px 4px;
   background-color: var(--navyblue);
   padding: 100px 0;
 }
-.footer-container a {
+.footer-container .logo {
   display:inline-block;
-  margin-bottom: 16px ;
+  margin-bottom: 16px; ;
 }
 .footer-text {
   /* STYLE */
