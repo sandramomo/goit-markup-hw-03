@@ -42,17 +42,26 @@ img {
   width: 100%;
 }
 /* GENERAL LAYOUT */
-/* * {border:1px solid var(--green); */
+
 .container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
+}
+
 /* HEADER */
+.headder-container {
+  /* STYLE */
+  border-bottom: 1px solid var(--cornflower);
+}
 header .container {
-  flex-direction: row;
+  /* LAYOUT */
   justify-content: space-around;
+}
+.logo {
+  /* LAYOUT */
+  margin-right: 76px;
 }
 .logo,
 .logo-text-tp,
@@ -71,13 +80,14 @@ header .container {
   color: var(--navyblue);
 }
 .logo-text-btm {
- /* STYLE */
+  /* STYLE */
   color: var(--cloud);
 }
 .navigation {
   /* LAYOUT */
-  display:flex;
-  gap:40px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
 .nav-list {
@@ -100,36 +110,35 @@ header .container {
 }
 .contacts-list {
   /* LAYOUT */
-  display:flex;
-  gap:40px;
+  display: flex;
+  gap: 40px;
 }
 .contact-element:hover,
 .nav-list-element:hover,
 .nav-list-element:focus,
 .contact-element:focus {
- /* STYLE */
+  /* STYLE */
   color: var(--ocean);
 }
 
 /* Main-page */
 .main-text {
- /* STYLE */
+  /* STYLE */
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
+  /* LAYOUT */
+  max-width: 496px;
 }
-.call-to-action .container{
+.call-to-action {
   /* LAYOUT */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 48px;
+  padding: 188px 0;
   width: 100%;
-  height: 600px;
   /* STYLE */
   background-color: var(--navyblue);
   font-size: 56px;
@@ -137,8 +146,14 @@ header .container {
   letter-spacing: 0.02em;
   color: var(--white);
 }
+.call-to-action .container {
+  /* LAYOUT */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .order-btn {
- /* STYLE */
+  /* STYLE */
   background-color: var(--iris);
   color: var(--white);
   font-weight: 500;
@@ -147,44 +162,61 @@ header .container {
   letter-spacing: 0.04em;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
-  width: 169px;
-  height: 56px;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
+  /* LAYOUT */
+  margin-top: 46px;
+  min-width: 169px;
+  height: 56px;
 }
 .order-btn:hover,
 .order-btn:focus {
- /* STYLE */
+  /* STYLE */
   background-color: var(--ocean);
 }
 /* Advantages section */
-.advantage {
- /* STYLE */
-  visibility: hidden;
+
+.advantages {
+  padding: 120px 0;
+}
+.visually-hidden {
+  /* LAYOUT*/
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 .advantage-list {
   /* LAYOUT */
   display: flex;
   gap: 24px;
-  margin: 120px 156px;
+}
+.advantage-list-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
 .advantage-header {
- /* STYLE */
+  /* STYLE */
   color: var(--navyblue);
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .advantage-text {
- /* STYLE */
+  /* STYLE */
   font-size: 16px;
   letter-spacing: 0.02em;
 }
 /* Team section */
 .section-header {
- /* STYLE */
+  /* STYLE */
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -192,33 +224,38 @@ header .container {
   text-align: center;
   color: var(--navyblue);
   text-transform: capitalize;
-}
-.team .container{
   /* LAYOUT */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 72px;
-  width: 100%;
-  height: 732px;
+  margin-bottom: 72px;
+}
+.team {
+  /* LAYOUT */
+  padding: 120px 0;
   /* STYLE */
   background-color: var(--cloud);
+}
+.team .container {
+  /* LAYOUT*/
+  display: flex;
+  flex-direction: column;
 }
 .team-list {
   /* LAYOUT */
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
 }
-.team-member {
- /* STYLE */
+
+.team-member-info {
+  /* LAYOUT */
+   padding: 32px 0;
+  /* STYLE */
   border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-top: none;
 }
 .member-name {
-  /* LAYOUT */
-  margin-top: 32px;
   /* STYLE */
   font-weight: 500;
   font-size: 20px;
@@ -226,37 +263,48 @@ header .container {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navyblue);
+  /* LAYOUT */
+  margin-bottom: 8px;
 }
 .member-position {
-  /* LAYOUT */
-    margin-top: 8px;
-  margin-bottom: 32px;
   /* STYLE */
   font-size: 16px;
   letter-spacing: 0.02em;
   text-align: center;
 }
 /* Product section */
-.our-portfolio .container{
+.our-portfolio {
   /* LAYOUT */
-  padding-top: 120px;
+  padding: 120px 0;
+}
+.our-portfolio .container {
+  /* LAYOUT */
+  display: flex;
+  flex-direction: column;
 }
 .product-list {
   /* LAYOUT */
-  padding: 120px 156px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+}
+.product-list-item {
+  /* layout */
   flex-basis: calc((100% - 48px) / 3);
 }
-.product-list li {
+.product-info {
+  /* STYLE */
   border: 1px solid var(--cornflower);
+  border-top: none;
+  /* LAYOUT */
+  margin-bottom: 8px;
+  padding: 32px 16px;
 }
 .product-name {
   /* LAYOUT */
   padding: 32px 0 0 16px;
- /* STYLE */
+  /* STYLE */
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -266,7 +314,7 @@ header .container {
 .product-type {
   /* LAYOUT */
   padding: 0 0 32px 16px;
- /* STYLE */
+  /* STYLE */
   font-size: 16px;
   letter-spacing: 0.02em;
 }
@@ -274,7 +322,6 @@ header .container {
 .footer-container {
   /* LAYOUT */
   display: flex;
-  height: 312px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -284,6 +331,11 @@ header .container {
 .footer-context {
   /* STYLE */
   background-color: var(--navyblue);
+  padding: 100px 0;
+}
+.footer-container .logo {
+  display:inline-block;
+  margin-bottom: 16px ;
 }
 .footer-text {
   /* STYLE */

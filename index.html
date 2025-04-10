@@ -20,7 +20,7 @@
     <title>Main page</title>
   </head>
   <body>
-    <header>
+    <header class="header-container">
       <div class="container">
         <nav class="navigation">
           <a href="./index.html" class="logo"
@@ -61,40 +61,37 @@
       <!-- CALL TO ACTION SECTION -->
       <section class="call-to-action">
         <div class="container">
-          <h1 class="main-text">
-            Effective Solutions <br />
-            for Your Business
-          </h1>
+          <h1 class="main-text">Effective Solutions for Your Business</h1>
           <button type="button" class="order-btn">Order Service</button>
         </div>
       </section>
       <!-- OUR ADVANTAGES -->
-      <section>
+      <section class="advantages">
         <div class="container">
-          <h2 class="advantage">Our advanatges</h2>
+          <h2 class="visually-hidden">Our advanatges</h2>
           <ul class="advantage-list">
-            <li>
+            <li class="advantage-list-item">
               <h3 class="advantage-header">Strategy</h3>
               <p class="advantage-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="advantage-list-item">
               <h3 class="advantage-header">Punctuality</h3>
               <p class="advantage-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="advantage-list-item">
               <h3 class="advantage-header">Diligence</h3>
               <p class="advantage-text">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="advantage-list-item">
               <h3 class="advantage-header">Technologies</h3>
               <p class="advantage-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -116,8 +113,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="member-name">Mark Guerrero</h3>
-              <p class="member-position">Product Designer</p>
+              <div class="team-member-info">
+                <h3 class="member-name">Mark Guerrero</h3>
+                <p class="member-position">Product Designer</p>
+              </div>
             </li>
             <li class="team-member">
               <img
@@ -126,8 +125,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="member-name">Tom Ford</h3>
-              <p class="member-position">Frontend Developer</p>
+              <div class="team-member-info">
+                <h3 class="member-name">Tom Ford</h3>
+                <p class="member-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-member">
               <img
@@ -136,8 +137,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="member-name">Camila Garcia</h3>
-              <p class="member-position">Marketing</p>
+              <div class="team-member-info">
+                <h3 class="member-name">Camila Garcia</h3>
+                <p class="member-position">Marketing</p>
+              </div>
             </li>
             <li class="team-member">
               <img
@@ -146,80 +149,94 @@
                 width="264"
                 height="260"
               />
-              <h3 class="member-name">Daniel Wilson</h3>
-              <p class="member-position">UI Designer</p>
+              <div class="team-member-info">
+                <h3 class="member-name">Daniel Wilson</h3>
+                <p class="member-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <!-- OUR PORTFOLIO -->
-        <section class="our-portfolio">
-          <div class="container">
+      <section class="our-portfolio">
+        <div class="container">
           <h2 class="section-header">Our Portfolio</h2>
           <ul class="product-list">
-            <li>
+            <li class="product-list-item">
               <img
                 src="./images/banking-app-sq.jpg"
                 alt="Banking app"
                 width="360"
                 height="300"
               />
+              <div class="product-info">
               <h3 class="product-name">Banking App</h3>
               <p class="product-type">App</p>
+              </div>
             </li>
-            <li>
+            <li class="product-list-item">
               <img
                 src="./images/cashless-payment-sq.jpg"
                 alt="Cashless payment"
                 width="360"
                 height="300"
               />
+              <div class="product-info">
               <h3 class="product-name">Cashless Payment</h3>
               <p class="product-type">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="product-list-item">
               <img
                 src="./images/meditation-sq.jpg"
                 alt="Meditation"
                 width="360"
                 height="300"
               />
+              <div class="product-info">
               <h3 class="product-name">Meditation App</h3>
               <p class="product-type">App</p>
+              </div>
             </li>
-            <li>
+            <li class="product-list-item">
               <img
                 src="./images/taxi-service-sq.jpg"
                 alt="Taxi service"
                 width="360"
                 height="300"
               />
+              <div class="product-info">
               <h3 class="product-name">Taxi Service</h3>
               <p class="product-type">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="product-list-item">
               <img
                 src="./images/screen-ill-sq.jpg"
                 alt="Screen Illustrations"
                 width="360"
                 height="300"
               />
+              <div class="product-info">
               <h3 class="product-name">Screen Illustrations</h3>
               <p class="product-type">Design</p>
+              </div>
             </li>
-            <li>
+            <li class="product-list-item">
               <img
                 src="./images/online-courses-sq.jpg"
                 alt="Online courses"
                 width="360"
                 height="300"
               />
+              <div class="product-info">
               <h3 class="product-name">Online Courses</h3>
               <p class="product-type">Marketing</p>
+              </div>
             </li>
           </ul>
-          </div>
-        </section>
+        </div>
+      </section>
     </main>
     <footer class="footer-context">
       <div class="container footer-container">
