@@ -53,40 +53,44 @@ img {
 
 /* HEADER */
 .header {
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
-justify-content: space-between;
+  justify-content: space-between;
 }
 .navigation {
-  display:flex;
-  gap:40px;
+  display: flex;
+  gap: 40px;
   align-items: center;
 }
 .navigation .logo {
   margin-right: 76px;
 }
 .nav-list {
-  display:flex;
-  gap:40px;
+  display: flex;
+  gap: 40px;
   align-items: center;
   font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.nav-list-element {
+  padding: 24px 0;
 }
 .contacts-list {
   font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;color: #434455;
-  display:flex;
-  gap:40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  display: flex;
+  gap: 40px;
 }
-.logo{
+.logo {
   /* STYLE */
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -95,7 +99,7 @@ letter-spacing: 0.02em;color: #434455;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  display:inline-block
+  display: inline-block;
 }
 .logo-text-tp {
   /* STYLE */
@@ -219,7 +223,7 @@ letter-spacing: 0.02em;color: #434455;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navyblue);
+  color: #2e2f42;
   text-transform: capitalize;
   /* LAYOUT */
   margin-bottom: 72px;
@@ -243,12 +247,12 @@ letter-spacing: 0.02em;color: #434455;
   gap: 24px;
 }
 .team-member {
-border-radius: 0px 0px 4px 4px;
-width:calc((100% - 72px) / 4)
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 .team-member-info {
   /* LAYOUT */
-   padding: 32px 0;
+  padding: 32px 0;
   /* STYLE */
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -336,7 +340,7 @@ width:calc((100% - 72px) / 4)
 }
 .bottom-logo {
   display: inline-block;
-  margin-bottom: 16px; ;
+  margin-bottom: 16px;
 }
 .footer-text {
   /* STYLE */
