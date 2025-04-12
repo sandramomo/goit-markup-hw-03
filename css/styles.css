@@ -62,6 +62,7 @@ justify-content: space-between;
 .navigation {
   display:flex;
   gap:40px;
+  align-items: center;
 }
 .navigation .logo {
   margin-right: 76px;
@@ -76,6 +77,9 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #2e2f42;
+}
+.nav-list-element {
+  padding: 0 24px;
 }
 .contacts-list {
   font-family: "Roboto", sans-serif;
@@ -334,7 +338,7 @@ width:calc((100% - 72px) / 4)
   background-color: var(--navyblue);
   padding: 100px 0;
 }
-.footer-container .logo {
+.bottom-logo {
   display:inline-block;
   margin-bottom: 16px; ;
 }
