@@ -76,8 +76,10 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  
 }
 .nav-list-element {
+  display: block;
   padding: 24px 0;
 }
 .contacts-list {
@@ -114,6 +116,8 @@ img {
   /* STYLE */
   font-style: normal;
   letter-spacing: 0.02em;
+  display: block;
+  align-self: center;
 }
 
 .contact-element:hover,
@@ -338,6 +342,7 @@ img {
 }
 .bottom-logo {
   display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-text {
   /* STYLE */
