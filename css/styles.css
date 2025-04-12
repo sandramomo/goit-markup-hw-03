@@ -45,7 +45,6 @@ img {
 /* GENERAL LAYOUT */
 
 .container {
-  display: flex;
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
@@ -56,6 +55,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
+  display:flex;
   justify-content: space-between;
 }
 .navigation {
@@ -115,7 +115,6 @@ img {
   /* STYLE */
   font-style: normal;
   letter-spacing: 0.02em;
-  display: block;
   align-self: center;
 }
 
@@ -238,11 +237,6 @@ img {
   /* STYLE */
   background-color: #f4f4fd;
 }
-.team .container {
-  /* LAYOUT*/
-  display: flex;
-  flex-direction: column;
-}
 .team-list {
   /* LAYOUT */
   display: flex;
@@ -285,11 +279,6 @@ img {
   /* LAYOUT */
   padding: 120px 0;
 }
-.our-portfolio .container {
-  /* LAYOUT */
-  display: flex;
-  flex-direction: column;
-}
 .product-list {
   /* LAYOUT */
   display: flex;
@@ -330,9 +319,9 @@ img {
 /* Footer */
 .footer-container {
   /* LAYOUT */
-  flex-direction: column;
-  margin-left: 156px;
-  gap: 16px;
+margin-left: 156px;
+
+
 }
 .footer-context {
   /* STYLE */
@@ -350,6 +339,5 @@ img {
   letter-spacing: 0.02em;
   color: #e7e9fc;
   /* LAYOUT */
-  display: block;
   width: 264px;
 }
