@@ -101,7 +101,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  display: inline-block;
 }
 .logo-text-tp {
   /* STYLE */
